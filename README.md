@@ -36,10 +36,6 @@ Mapping `<C-W><C-Q>` to `<Plug>(yanked-buffer-q)` does not change Vim's default 
 Mapping `<C-W>Q` to `<Plug>(yanked-buffer-p)` is optional.
 
 ```vim
-" Required to keep hidden buffers alive.
-set hidden
-
-" Key mappings
 nmap <C-W>q     <C-W><C-Q>
 nmap <C-W><C-Q> <Plug>(yanked-buffer-q)
 nmap <C-W>Q     <Plug>(yanked-buffer-p)
